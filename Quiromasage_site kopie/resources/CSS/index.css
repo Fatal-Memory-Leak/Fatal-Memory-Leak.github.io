@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(108, 189, 107);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px solid #333333;
+
+
+    
+}
+
+nav {
+    color: #333333;
+
+}
+
+nav li {
+    color: #f6f3f3;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    width: 180px;
+}
+
+body {
+    background-image:url("/Users/ferry/Desktop/Programeren Fernand/HTML en CSS/projects/Practice_using_Visual_Studio/recourses/images/massage_been_logo.jpg");
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de gehele pagina beslaat */
+    background-position: center; /* Centreert de afbeelding */
+    background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
+    background-attachment: fixed; /* Zorgt ervoor dat de achtergrond blijft staan bij scrollen */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Zorgt ervoor dat het body-element de volledige hoogte van het scherm inneemt */
+    background-color: rgba(247, 243, 243, 0.4);
+    background-blend-mode: overlay;
+}
